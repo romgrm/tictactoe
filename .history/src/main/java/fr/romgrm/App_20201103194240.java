@@ -37,7 +37,7 @@ public final class App {
         
         /*PRESENTATION DU TABLEAU */ 
         
-        plateau.remplirTableau();
+        
 
         
     }

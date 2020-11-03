@@ -16,8 +16,8 @@ public final class App {
     public static void main(String[] args) {
 
         /* CREATION DES JOUEURS */ 
-        Joueur joueur1 = new Joueur("Player_1", ' '); 
-        Joueur joueur2 = new Joueur("Player_2", ' '); 
+        //Joueur joueur1 = new Joueur("Player_1", 1); 
+        //Joueur joueur2 = new Joueur("Player_2", 2); 
 
         /*CREATION DE LA GRID */
         Grille plateau = new Grille(); 
@@ -32,11 +32,10 @@ public final class App {
         System.out.println("\n" + "Très bien " + entreTonNom + ". Tu connais surement les règles du morpion, choisit une lettre, soit X, soit O : " + "\n");
 
         /*CHOOSE SYMBOL*/
-        joueur1.chooseSymboleJoueur1();
-        joueur2.chooseSymboleJoueur2();
-        
-        /*PRESENTATION DU TABLEAU */ 
-        
+        joueur1.chooseSymbole();
+
+       
+
         plateau.remplirTableau();
 
         

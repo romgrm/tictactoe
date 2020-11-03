@@ -32,11 +32,11 @@ public final class App {
         System.out.println("\n" + "Très bien " + entreTonNom + ". Tu connais surement les règles du morpion, choisit une lettre, soit X, soit O : " + "\n");
 
         /*CHOOSE SYMBOL*/
-        joueur1.chooseSymboleJoueur1();
-        joueur2.chooseSymboleJoueur2();
-        
-        /*PRESENTATION DU TABLEAU */ 
-        
+        joueur1.chooseSymbole();
+        joueur2.chooseSymbole2();
+
+       
+
         plateau.remplirTableau();
 
         

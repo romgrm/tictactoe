@@ -36,8 +36,9 @@ public final class App {
         joueur2.chooseSymboleJoueur2();
         
         /*PRESENTATION DU TABLEAU */ 
-        
         plateau.remplirTableau();
+       
+        
 
         
     }
