@@ -14,7 +14,10 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-       
+
+        /* CREATION DES JOUEURS */ 
+        // Joueur joueur1 = new Joueur("Player_1", ' '); 
+        // Joueur joueur2 = new Joueur("Player_2", ' '); 
 
         /*CREATION DE LA GRID */
         // Grille plateau = new Grille(); 
@@ -25,7 +28,16 @@ public final class App {
 
         // /* START PLAYING */ 
         
-       
+        
+
+        // /*CHOOSE SYMBOL FOR PLAYER_1 && ASSIGN SYMBOL FOR PLAYER_2*/
+        // joueur1.chooseSymboleJoueur1();
+        // if(joueur1.getsymbolJoueur() == 'x' || joueur1.getsymbolJoueur() == 'X'){
+        //     joueur2.setsymbolJoueur('O');
+        // }else{
+        //     joueur2.setsymbolJoueur('X');
+        // }
+        // joueur2.chooseSymboleJoueur2();
         
         // /** ASSIGN PION TO PLAYER */
 

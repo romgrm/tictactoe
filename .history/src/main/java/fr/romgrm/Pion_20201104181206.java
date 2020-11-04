@@ -2,7 +2,7 @@ package fr.romgrm;
 
 public class Pion{
 
-     char forme; 
+    private char forme; 
     //private int position;
 
     public Pion(char forme) {

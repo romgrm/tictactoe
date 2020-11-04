@@ -2,7 +2,7 @@ package fr.romgrm;
 
 public class Pion{
 
-     char forme; 
+    private char forme; 
     //private int position;
 
     public Pion(char forme) {
@@ -14,5 +14,5 @@ public class Pion{
     //     if(joueur1.getsymbolJoueur() == 'X'){
     //         System.out.println("le joueur 1 aura le symbole X"); 
     //     }; 
-    //}
+    }
 }
