@@ -34,7 +34,7 @@ public Pion[][] getPlateau() {
     return plateau;
 }
 public void setPlateau(int row, int column) {
-    this.plateau[row][column].setForme('X');;
+    this.plateau[row][column];
 }
  
     
