@@ -20,8 +20,11 @@ public final class App {
         Joueur joueur2 = new Joueur("Player_2", ' '); 
 
         /*CREATION DE LA GRID */
-        Grille plateau = new Grille(); 
-        
+        char[][] plateau = {{' ', '|', ' ', '|', ' '},
+        {'-', '+', '-', '+', '-'},
+        {' ', '|', ' ', '|', ' '},
+        {'-', '+', '-', '+', '-'},
+        {' ', '|', ' ', '|', ' '}};
         //Grille plateau = new Grille(); 
 
         /* CREATION DES PIONS*/
@@ -57,7 +60,7 @@ public final class App {
         System.out.println("choisit ta colonne entre 0 et 2 :");
         int entreePlayerColumn = scan2.nextInt();
          
-        plateau[entreePlayerRow][entreePlayerColumn] = X;
+        plateau[entreePlayerRow][entreePlayerColumn] = 'X';
 
        
     }

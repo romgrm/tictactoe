@@ -8,8 +8,7 @@ public class Joueur{
     // Attributs de class
     private String name; 
     private char symbolJoueur; 
-    Grille grille; 
-    App app; 
+    //private App app; 
 
     // Constructor
     public Joueur(String name, char symbolJoueur) {
@@ -57,6 +56,13 @@ public class Joueur{
     
     public void chooseSymboleJoueur2(){
         //je veux que mon symbolJoueur du Joueur 2 se fasse par rapport au résultat du symbolJoueur du Joueur1
+        
+        // //if() {   
+        //     this.symbolJoueur = 'O'; 
+        // }else{
+        //     this.symbolJoueur = 'X'; 
+        // }
+        
         System.out.println("\n" + "Le " + this.name + " auras donc le symbole : "  + this.symbolJoueur + "\n");
     }
 

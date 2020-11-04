@@ -21,12 +21,7 @@ public final class App {
 
         /*CREATION DE LA GRID */
         Grille plateau = new Grille(); 
-        
-        //Grille plateau = new Grille(); 
 
-        /* CREATION DES PIONS*/
-        Pion X = new Pion('X'); // player_1
-        Pion O = new Pion('O');
 
         /* START PLAYING */ 
 
@@ -47,18 +42,12 @@ public final class App {
         
 
         /* LANCER UNE PARTIE */ 
-        
-        System.out.println("A ton tour " + joueur1.getName() + " , choisit ton rang entre 0 et 2 :");
+
+        System.out.println("A ton tour " + joueur1.getName() " , choisit un emplacement en rentrant deux coordonnées, comprises entre 0 et 2 :");
         /*PRESENTATION DU TABLEAU */ 
         
-        Scanner scan2 = new Scanner(System.in);
-        int entreePlayerRow = scan2.nextInt() ;
-        
-        System.out.println("choisit ta colonne entre 0 et 2 :");
-        int entreePlayerColumn = scan2.nextInt();
-         
-        plateau[entreePlayerRow][entreePlayerColumn] = X;
+        plateau.remplirTableau();
 
-       
+        
     }
 }
